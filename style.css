@@ -1673,6 +1673,135 @@ img {
   .single-web-icon:hover {
     box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.15); }
 
+
+    /* Custom */
+    /* Este es el código del ejemplo con un máximo de 600px de ancho */
+video{
+  width:100%;
+  max-width:350px;
+  min-width: 325px;
+  }
+  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
+  video{
+  width:100%;
+  }
+
+  .card-tiktok {
+    position: relative;
+    padding-top: 12px;
+    display: block;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-family: var(--tux-fontFamilyParagraph);
+    font-weight: var(--tux-fontWeightSemibold);
+    width: 95%;
+    margin:0 auto;
+}
+
+.container-tiktok {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  min-width: 325px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid rgb(22 24 35 / 12%);
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 350px;
+  background-color: #ffffff;
+}
+
+.title-tiktok {
+  position: relative;
+  display: block;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightSemibold);
+  padding: 0;
+  margin: 0;
+}
+
+.css-mik1yo {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.css-1y46e4f {
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightSemibold);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+.css-ytaabt {
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.css-1ewdcpg {
+  flex: 0 0 98px;
+  display: inline-block;
+  height: 28px;
+  line-height: 1.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254, 44, 85);
+  transition: all 100ms linear 0s;
+  white-space: nowrap;
+  padding: 0px 6px;
+  font-family: var(--tux-fontFamilyParagraph);
+  font-weight: var(--tux-fontWeightSemibold);
+  cursor: pointer;
+  border:none;
+}
+
+.css-hpr8k5 {
+  display: block;
+  transition: all 0s ease-in-out 0s;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  background: transparent;
+  visibility: visible;
+  height: 81px;
+}
+.css-1xa8sh6 {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-pack: start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding:7px;
+}
+
+.push {
+  margin-left: auto;
+}
+
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
