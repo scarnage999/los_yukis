@@ -1676,14 +1676,10 @@ img {
 
     /* Custom */
     /* Este es el código del ejemplo con un máximo de 600px de ancho */
-video{
+.tiktok {
   width:100%;
   max-width:350px;
   min-width: 325px;
-  }
-  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
-  video{
-  width:100%;
   }
 
   .card-tiktok {
@@ -1801,6 +1797,111 @@ video{
 .push {
   margin-left: auto;
 }
+/** Instagram **/
+.Header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 54px;
+  padding: 10px;
+}
+.AvatarContainer {
+  align-items: center;
+  background-color: rgb(var(--web-always-white));
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+}
+.HeaderText {
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 10px;
+  overflow: hidden;
+}
+.HeaderCta {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row;
+  justify-content: flex-end;
+  margin-left: 15px;
+}
+a.ViewProfileButton, a.FollowButton {
+  background-color: rgb(0,149,246);
+  border-radius: 3px;
+  color: rgb(255,255,255);
+  flex-shrink: 0;
+  font-weight: var(--font-weight-system-semibold);
+  margin-left: 10px;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-size: 15px;
+}
+a.Username {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: var(--font-weight-system-semibold);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.HeaderSecondaryContent {
+  color: rgb(var(--ig-secondary-text));
+  flex-direction: row;
+  font-size: 12px;
+  line-height: 14px;
+}
+.img-flow {
+  width: 30px;
+  height: 30px;
+}
+.PrimaryCTA {
+  align-items: stretch;
+  background-color: rgb(255,255,255);
+  position: relative;
+  padding-bottom: 10px
+}
+.PrimaryCTA a {
+  color: rgb(0,149,246);
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Feedback {
+  border-top: 1px solid rgb(219,219,219);
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px;
+  padding: 8px 0;
+}
+.Caption {
+  display: block;
+  line-height: 18px;
+  padding: 0 10px 10px;
+}
+a.CaptionUsername {
+  font-weight: 600;
+  margin: -5px 0 -5px -5px;
+  padding: 5px;
+  color: black!important;
+}
+.Caption a {
+  color: rgb(0,55,107);
+  font-weight: 100;
+}
+.instagram {
+  width:100%;
+  max-width:650px;
+  min-width: 325px;
+  }
+  /* Y así se adaptaría al 100% del ancho de página (para webs móviles sería útil) */
+
 
 /* ====== The End ====== */
 
